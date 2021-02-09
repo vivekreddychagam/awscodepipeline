@@ -1,0 +1,6 @@
+[
+   {
+         "name": "cicd-demo",
+         "imageUri": "199144184186.dkr.ecr.us-east-1.amazonaws.com/cicd:latest"
+   }
+]
