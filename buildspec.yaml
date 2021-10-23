@@ -4,15 +4,15 @@ phases:
   pre_build:
     commands:
       - echo Logging in to Amazon ECR...
-      - aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 199144184186.dkr.ecr.us-east-1.amazonaws.com
+      - aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 796801251202.dkr.ecr.us-east-1.amazonaws.com
   build:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...
-      - docker build -t cicd .
-      - docker tag cicd:latest 199144184186.dkr.ecr.us-east-1.amazonaws.com/cicd:latest
+      - docker build -t nginx .
+      - docker tag nginx:latest 796801251202.dkr.ecr.us-east-1.amazonaws.com/nginx:latest
   post_build:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
-      - docker push 199144184186.dkr.ecr.us-east-1.amazonaws.com/cicd:latest
+      - docker push 796801251202.dkr.ecr.us-east-1.amazonaws.com/nginx:latest
