@@ -1,6 +1,6 @@
 [
    {
-         "name": "nginx",
-         "imageUri": "796801251202.dkr.ecr.us-east-1.amazonaws.com/nginx:latest"
+         "name": "ramesh",
+         "imageUri": "796801251202.dkr.ecr.us-east-1.amazonaws.com/ramesh:latest"
    }
 ]
