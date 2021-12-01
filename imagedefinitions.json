@@ -1,6 +1,6 @@
 [
    {
-         "name": "app",
-         "imageUri": "796801251202.dkr.ecr.us-east-1.amazonaws.com/app:latest"
+         "name": "traing",
+         "imageUri": "490971871466.dkr.ecr.us-east-1.amazonaws.com/traing:latest"
    }
 ]
