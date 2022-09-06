@@ -1,6 +1,6 @@
 [
    {
-         "name": "app",
+         "name": "trainingapp",
          "imageUri": "751253673357.dkr.ecr.us-west-1.amazonaws.com/trainingapp:latest"
    }
 ]
