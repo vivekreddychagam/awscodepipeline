@@ -9,10 +9,10 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...
-      - docker build -t app  .
-      - docker tag app:latest 796801251202.dkr.ecr.us-east-1.amazonaws.com/app:latest
+      - docker build -t ramesh  .
+      - docker tag ramesh:latest 796801251202.dkr.ecr.us-east-1.amazonaws.com/ramesh:latest
   post_build:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
-      - docker push 796801251202.dkr.ecr.us-east-1.amazonaws.com/app:latest
+      - docker push 796801251202.dkr.ecr.us-east-1.amazonaws.com/ramesh:latest

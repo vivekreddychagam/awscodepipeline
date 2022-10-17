@@ -1,6 +1,6 @@
 [
    {
-         "name": "app",
-         "imageUri": "796801251202.dkr.ecr.us-east-1.amazonaws.com/app:latest"
+         "name": "ramesh",
+         "imageUri": "796801251202.dkr.ecr.us-east-1.amazonaws.com/ramesh:latest"
    }
 ]
