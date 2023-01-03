@@ -9,6 +9,8 @@ spec:
   selector:
     matchLabels:
       app: webapp
+  strategy:
+    type: RollingUpdate
   template:
     metadata:
       name: webapp
