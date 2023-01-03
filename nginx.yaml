@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: vivekreddychagam/nginx-webapp
+        image: vivekreddychagam/nginx-webapp:latest
         imagePullPolicy: Always
 
